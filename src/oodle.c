@@ -178,6 +178,8 @@ void decompress(UProperty *property, bool verbose) {
   /**
    * Do not even bother with realloc... just malloc big enough
    * chunk of memory and forget...
+   *
+   * TODO: Refactor memory allocation strategy!
    */
   size_t result_size = 0;
   SAFE_ALLOC_SIZE(byte, result_data, sizeof (byte) * property->length * OODLE_COMPRESSION_FACTOR_MAGIC);

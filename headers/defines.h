@@ -83,7 +83,7 @@ typedef struct _UProperty_Array {
 #define UARRAYPROPERTY_ADDED_LENGTH 4
 
 // Multiplication factor for UArrayProperty size
-#define OODLE_COMPRESSION_FACTOR_MAGIC 5
+#define OODLE_COMPRESSION_FACTOR_MAGIC 15
 
 // Oodle UPK signature
 #define OODLE_MAX_BLOCK_SIZE 131072
